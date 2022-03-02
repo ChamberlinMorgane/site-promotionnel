@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <label class="compte-a-rebour" id="Compte"></label>
+        <script type="text/javascript">
+        var Affiche=document.getElementById("Compte");
+        function Rebour() {
+        var date1 = new Date();
+        var date2 = new Date ("Jun 6, 2022 00:00:00");
+        var sec = (date2 - date1) / 1000;
+        var n = 24 * 3600;
+        if (sec > 0) {
+        j = Math.floor (sec / n);
+        h = Math.floor ((sec - (j * n)) / 3600);
+        mn = Math.floor ((sec - ((j * n + h * 3600))) / 60);
+        sec = Math.floor (sec - ((j * n + h * 3600 + mn * 60)));
+        Affiche.innerHTML = "Heart'ist : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s";
+        window.status = "Temps restant : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s ";
+        }
+        tRebour=setTimeout ("Rebour();", 1000);
+        }
+        Rebour();
+        </script>
+
+<div class="header__menu__item" onclick="document.documentElement.classList.toggle('menu-open')">
+    <div class="header__menu__item-bar"></div>
+</div>
+
+<nav class="header__menu__list">
+    <h2 class="menu__titre">MENU</h2>
+    <div class="rond"></div>
+    <ul>
+        <li class="menu__categories"><a href="contact.html">Contact</a></li>
+        <li class="menu__categories"><a href="a-propos.html">A propos</a></li>
+        <li class="menu__categories"><a href="index.html">Accueil</a></li>
+       
+    </ul>
+</nav>
+</div>
+    </header>
+    
+</body>
+</html>
