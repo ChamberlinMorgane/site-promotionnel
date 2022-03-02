@@ -1,0 +1,72 @@
+form{
+    margin: 0;
+    padding: 0;
+    background-color: #EDECEC;
+   
+}
+
+form .corps-formulaire{
+   display: flex; 
+   flex-wrap: wrap;
+   margin-bottom: 50px;
+   
+}
+
+form .corps-formulaire .groupe{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form .corps-formulaire .gauche .groupe input{
+    margin-top: 10px;
+    padding: 10px 5px 10px 30px ;
+    border: 1px solid #000000;
+    outline-color:#FEB84F ;
+    border-radius: 10px;
+    background-color: #FEDD88;
+}
+
+form .corps-formulaire .droite{
+    margin-left: 40px;
+}
+
+form .corps-formulaire .droite .groupe{
+    height: 100%;
+}
+
+form .corps-formulaire .droite .groupe textarea{
+   margin-top: 10px;
+   padding: 10px;
+   background-color: #FEDD88;
+   outline: none;
+   resize: none;
+   height: 80%;
+   border-radius: 10px;
+   border: 2px solid #000000;
+}
+
+
+
+
+
+
+form .pied-formulaire button {
+    margin-top: 10px;
+    background-color:#786478 ;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+}
+
+form .pied-formulaire button:hover {
+    transform: scale(1.05);
+    
+}
