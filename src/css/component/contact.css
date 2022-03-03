@@ -2,6 +2,8 @@ form{
     margin: 0;
     padding: 0;
     background-color: #EDECEC;
+    display: flex;
+    justify-content: center;
    
 }
 
@@ -26,6 +28,8 @@ form .corps-formulaire .gauche .groupe input{
     outline-color:#FEB84F ;
     border-radius: 10px;
     background-color: #FEDD88;
+    width: 543px;
+    height: 70px;
 }
 
 form .corps-formulaire .droite{
@@ -34,6 +38,7 @@ form .corps-formulaire .droite{
 
 form .corps-formulaire .droite .groupe{
     height: 100%;
+    
 }
 
 form .corps-formulaire .droite .groupe textarea{
@@ -42,9 +47,10 @@ form .corps-formulaire .droite .groupe textarea{
    background-color: #FEDD88;
    outline: none;
    resize: none;
-   height: 80%;
+   height: 88%;
    border-radius: 10px;
    border: 2px solid #000000;
+   width: 800px;
 }
 
 
