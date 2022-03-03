@@ -2,15 +2,12 @@
         background-color: #EDECEC;
         z-index: 1;
         margin-top: 0;
-        height: 130px;  
+        height: 90px;  
     }
 
 .menu {
     display: flex;
     align-items: center;
-    gap: var(--space0.5px);
-    min-height: 200px;
-    margin-top: -65px;
   }
   
   .menu__link {
