@@ -1,5 +1,19 @@
+/*background et couleurs des textes sur l'ensemble du site */
+
 body{
     background-color: #EDECEC
+}
+
+/* annuler la mise en forme des liens */
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+    font-family: var(--mulish);
 }
 
 .compte-a-rebour{
