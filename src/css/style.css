@@ -27,7 +27,7 @@ La règle @import permet d'importer ici tous les fichiers css utilisés.
 @import "layout/header.css";
 @import "layout/footer.css";
 
-/* Components */
+/* Component */
 @import "component/menu.css";
 @import "component/hero.css";
 @import "component/contact.css";
