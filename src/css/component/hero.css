@@ -11,6 +11,7 @@
     text-align: center;
     padding: -110px;
     width: 817px;
+    z-index: 3;
 }
 
 .button__incription__home {
@@ -21,9 +22,19 @@
     margin-top: -343px;
     margin-left: 541px;
     border-radius: 65px;
+    border-style: solid;
+    border-color: black;
+    
 }
 
 .text__inscription {
     text-align: center;
     margin-top: -26px;
+}
+
+.fond__transparent__home {
+    z-index: 1;
+    margin-top: -579px;
+    margin-left: 261px;
+    position: absolute;
 }
