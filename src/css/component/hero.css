@@ -12,3 +12,18 @@
     padding: -110px;
     width: 817px;
 }
+
+.button__incription__home {
+    width: 457px;
+    background-color: #FEB84F;
+    height: 114px;
+    position: absolute;
+    margin-top: -343px;
+    margin-left: 541px;
+    border-radius: 65px;
+}
+
+.text__inscription {
+    text-align: center;
+    margin-top: -26px;
+}
