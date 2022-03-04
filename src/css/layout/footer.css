@@ -1,3 +1,26 @@
 .footer{
     background-color: #404040;
 }
+
+.list-unstyled1 {
+    display: flex;
+    align-items: center;
+}
+
+.list-unstyled2 {
+    display: flex;
+    align-items: center;
+}
+
+/* Réseaux sociaux */ 
+
+.footer__social {
+    margin-left: 20px;
+    gap: var(--space0.5px);
+}
+
+.footer__ligne {
+    width: 200px;
+    height: 2px;
+    color: white;
+}
