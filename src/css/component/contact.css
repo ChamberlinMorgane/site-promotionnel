@@ -2,8 +2,7 @@ form{
     margin: 0;
     padding: 0;
     background-color: #EDECEC;
-    display: block;
-    margin: auto;
+    
    
 }
 
@@ -11,6 +10,8 @@ form .corps-formulaire{
    display: flex; 
    flex-wrap: wrap;
    margin-bottom: 50px;
+   display: block;
+    justify-content: center;
    
 }
 
