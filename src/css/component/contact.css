@@ -2,8 +2,8 @@ form{
     margin: 0;
     padding: 0;
     background-color: #EDECEC;
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin: auto;
    
 }
 
