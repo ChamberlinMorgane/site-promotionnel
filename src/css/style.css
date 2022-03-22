@@ -11,7 +11,7 @@ La règle @import permet d'importer ici tous les fichiers css utilisés.
 */
 
 /* Code fourni par Google Font pour l'utilisation de ces polices de caractères */
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* Vendors */
 @import "vendors/normalize.css";

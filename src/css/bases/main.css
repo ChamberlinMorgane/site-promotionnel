@@ -27,9 +27,10 @@ ul {
     font-size: 5Opx;
   }
   
-  * h2 {
+  *h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 42px;
+
   }
   
   * h3 {
@@ -40,16 +41,9 @@ ul {
 
 .compte-a-rebour{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 70px;
     display: flex;
     justify-content: center;
-    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #654652), color-stop(0.15, #ffdfba), color-stop(0.3, #ffffba), color-stop(0.45, #baffc9), color-stop(0.6, #bae1ff));
-    background-image: gradient( linear, left top, right top, color-stop(0, #654652), color-stop(0.15, #ffdfba), color-stop(0.3, #ffffba), color-stop(0.45, #baffc9), color-stop(0.6, #bae1ff));
-    color:transparent;
-   -webkit-background-clip: text;
-    background-clip: text;
-    z-index: 2;}
-
-.dessin-enfant{
+    color: black;
 
 }

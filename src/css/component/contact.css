@@ -34,11 +34,14 @@ form .corps-formulaire .gauche .groupe input{
 }
 
 form .corps-formulaire .droite{
-    margin-left: 40px;
+    margin-top: -547px;
+    margin-left: 637px;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 form .corps-formulaire .droite .groupe{
-    height: 100%;
+    height: 532px;
     
 }
 
