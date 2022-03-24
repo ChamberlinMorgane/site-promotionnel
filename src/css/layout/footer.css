@@ -1,16 +1,21 @@
 .footer{
     background-color: #404040;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .footer__informations{
     color: white;
 }
 
-.list-unstyled1 {
+
+.footer__categories{
     display: flex;
     align-items: center;
-    color: white;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .list-unstyled2 {

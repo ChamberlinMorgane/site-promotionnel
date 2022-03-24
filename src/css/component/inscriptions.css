@@ -15,7 +15,7 @@ form .corps-inscription{
 }
 
 form .corps-inscription .groupe_inscription{
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     
@@ -29,7 +29,7 @@ form .corps-inscription .groupe_inscription input{
     border-radius: 10px;
     background-color: #FEDD88;
     width: 543px;
-    height: 70px;
+    height: 50px;
 }
 
 .corps-inscriptions label{
@@ -37,3 +37,23 @@ form .corps-inscription .groupe_inscription input{
     justify-content: center;
 }
 
+
+form .pied-inscription button {
+    margin-top: 10px;
+    background-color:#ffffff ;
+    color: black;
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+    
+
+}
+
+form .pied-inscription button:hover {
+    transform: scale(1.05);
+    
+}
