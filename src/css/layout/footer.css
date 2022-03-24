@@ -16,6 +16,7 @@
     gap: 50px;
     display: flex;
     justify-content: center;
+    ;
 }
 
 .list-unstyled2 {
@@ -29,9 +30,11 @@
 /* Réseaux sociaux */ 
 
 .footer__ligne {
-    width: 200px;
-    height: 2px;
-    color: white;
+    border: 1px solid white;
+    width: 500px;
+    margin-left: 500px;
+    
+
 }
 
 .copyright{

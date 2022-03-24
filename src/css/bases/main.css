@@ -45,6 +45,7 @@ ul {
     display: flex;
     justify-content: center;
     color: black;
+    margin-top: 50px;
 
 }
 
@@ -52,21 +53,36 @@ ul {
   display: flex;
   justify-content: center;
   margin-top: 200px;
+  cursor: pointer;
+  transition: transform 0.5s;
 }
+
+.dessin:hover{
+  transform: scale(1.3);
+  }
 
 .dessin1{
   margin-bottom: -400px;
+  cursor: pointer;
+  transition: transform 0.5s;
 }
+
+.dessin1:hover{
+  transform: scale(1.03);
+  }
 
 .bubbleright{
   float: right;
-  width: 450px;
+  width: 450px;  
+
 }
+
 
 .bubbleleft{
   float: left;
   width: 450px;
 }
+
 
 .text__index{
   display: flex;
@@ -88,8 +104,10 @@ margin-left: 100px;
   margin-top: -100px;
 }
 
+
 .bubble2{
   float: right;
   margin-right: 200px;
   margin-top: -300px;
 }
+

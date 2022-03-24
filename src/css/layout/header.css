@@ -59,10 +59,14 @@ text-align: center;
 font-family: 'Roboto', sans-serif;
 }
 
+.menu__title img {
+  float: inline-start;
+}
+
 /* Header pages secondaires */
 
 .Button__inscription {
-  background-color: coral;
+  background-color: #FEB84F;
   border-radius: 101px;
   width: 224px;
   height: 72px;
