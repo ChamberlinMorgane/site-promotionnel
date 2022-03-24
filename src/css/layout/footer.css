@@ -1,26 +1,44 @@
 .footer{
     background-color: #404040;
+    color: white;
+}
+
+.footer__informations{
+    color: white;
 }
 
 .list-unstyled1 {
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .list-unstyled2 {
     display: flex;
     align-items: center;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 /* Réseaux sociaux */ 
-
-.footer__social {
-    margin-left: 20px;
-    gap: var(--space0.5px);
-}
 
 .footer__ligne {
     width: 200px;
     height: 2px;
     color: white;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.mmi{
+    display: flex;
+    justify-content: center;
+}
+
+.logommi{
+    width: 40px;
 }

@@ -1,5 +1,36 @@
 :root {
     
+
+/* Color styles */
+--fond-promo-final: rgba(244, 244, 244, 1);
+--fond-footer: rgba(64, 64, 64, 1);
+--bouton-en-savoir-plus-promo: rgba(0, 0, 0, 1);
+--titre-promo: rgba(33, 68, 112, 1);
+--jaune-titre---final: rgba(255, 210, 49, 0.4000000059604645);
+--boutons-clairs---final: rgba(248, 234, 200, 1);
+--formulaire-promo-final: rgba(254, 221, 136, 1);
+--bouton-bleu-profil---final: rgba(189, 216, 224, 1);
+--bouton-vert-valider---final: rgba(72, 188, 53, 0.30000001192092896);
+--bouton-rouge-déconnexion---final: rgba(233, 69, 69, 0.20000000298023224);
+--bouton-headerinscription-promo: rgba(254, 184, 79, 1);
+--bouton-promo-final: rgba(255, 164, 97, 1);
+--bulles-oranges---final: rgba(255, 164, 97, 0.5);
+--fond-2-footer--final: rgba(47, 47, 47, 1);
+--prénom-promo: rgba(232, 199, 151, 1);
+
+/* Text-size styles */
+--mulish: 144px;
+--titre-page-promo: 96px;
+--titre-page-final: 80px;
+--body-final-promo: 30px;
+--roboto-bold-final: 48px;
+--acmé-titre-final: 100px;
+--roboto-bold-header-final: 22px;
+--roboto-regular-footer-final: 20px;
+--roboto-regular-footer2-final: 17px;
+--work-sans-regular-final: 30px;
+--robot-black-bouton-final: 20px;
+
 /* Espaces */
 --space1x: 8px;
 --space2x: 16px;
