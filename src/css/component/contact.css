@@ -87,3 +87,8 @@ form .corps-formulaire .droite .groupe textarea{
     width: 24px;
     margin-left: -30px;
 }
+
+.text__contact{
+    display: flex;
+    justify-content: center;
+}
