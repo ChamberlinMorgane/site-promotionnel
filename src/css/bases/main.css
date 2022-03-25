@@ -8,7 +8,6 @@ body{
 
 a {
     text-decoration: none;
-    color: #000000;
 }
 
 ul {
@@ -64,7 +63,7 @@ ul {
 .dessin1{
   margin-bottom: -400px;
   cursor: pointer;
-  transition: transform 0.5s;
+  transition: transform 0.2s;
 }
 
 .dessin1:hover{

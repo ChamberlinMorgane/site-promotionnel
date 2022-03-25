@@ -38,7 +38,7 @@ form .corps-inscription .groupe_inscription input{
 }
 
 
-form .pied-inscription button {
+.pied-inscription button {
     margin-top: 10px;
     background-color:#ffffff ;
     color: black;
@@ -49,11 +49,13 @@ form .pied-inscription button {
     outline: none;
     cursor: pointer;
     transition: transform 0.5s;
+    display: block;
+    margin: auto;
     
 
 }
 
-form .pied-inscription button:hover {
+.pied-inscription button:hover {
     transform: scale(1.05);
     
 }

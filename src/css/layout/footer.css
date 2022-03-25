@@ -5,18 +5,19 @@
     padding: 0;
 }
 
-.footer__informations{
+
+
+.list-unstyled1 a {
     color: white;
+    text-decoration: none;
+
 }
-
-
 .footer__categories{
     display: flex;
     align-items: center;
     gap: 50px;
     display: flex;
     justify-content: center;
-    ;
 }
 
 .list-unstyled2 {
