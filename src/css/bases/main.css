@@ -18,7 +18,9 @@ ul {
 /* Police d'écriture */
 
 * p {
-    font-family: var(--mulish);
+    font-family: 'mulish';
+    font-size: 25px;
+
   }
   
   * h1 {
@@ -35,7 +37,11 @@ ul {
   * h3 {
     font-family: 'Montserrat', sans-serif;;
     font-size: 30px;
+}
 
+* label{
+  font-family: 'mulish';
+  font-size: 20px;
 }
 
 .compte-a-rebour{
