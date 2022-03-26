@@ -14,23 +14,31 @@
     <header class="header">
 
         <div class="menu">
-            <h3 class="menutitle">
-                <a class="menulink" href="index.html">Accueil</a>
+            <img class="menu__title" src="public/icone/logo-petit.png" alt="petit logo">
+
+            <h3 class="menu__title">
+                <a class="menu__link" href="index.html">Accueil</a>
             </h3>
-            <h3 class="menutitle">
-                <a class="menulink" href="contact.html">Contact</a>
+            <h3 class="menu__title">
+                <a class="menu__link" href="contact.html">Contact</a>
             </h3>
-            <h3 class="menutitle">
-                <a class="menulink" href="àpropos.html">À propos</a>
+            <h3 class="menu__title">
+                <a class="menu__link" href="àpropos.html">À propos</a>
             </h3>
+
+            <div class="Button__inscription">
+                <a href="inscription.html"> Inscription</a>
+            </div>
         </div>
     </header>
-    <h2>Qui sommes nous ?</h2>
-    <img src="public/img/image-avatar-marion.webp" alt="Marion">
-    <p>Mariob Gillot</p>
+    <div class="photo__apropos">
+        <h2>Qui sommes nous ?</h2>
+        <img src="public/img/image-avatar-marion.webp" alt="Marion">
+        <p>Marion Gillot</p>
 
-    <img src="public/img/image-avatar-morgane.webp" alt="Morgane">
-    <p>Morgane Chamberlin</p>
+        <img src="public/img/image-avatar-morgane.webp" alt="Morgane">
+        <p>Morgane Chamberlin</p>
+    </div>
 
     <p>Nous sommes Marion Gillot et Morgane Chamberlin, toutes deux étudiantes en première année MMi,
         Métier du Multimédia et de l'Internet à l’IUT de Montbéliard ( 25 ).</p>
@@ -55,20 +63,20 @@
         <li>Votre enfant devrait également utiliser des filtres de language pour l'empêcher d'afficher tout contenu
             inapproprié qui pourrait venir
             d'autres utilisateurs.</li>
-        ffsfs
     </ul>
+
     <footer class="footer">
-        <div class="footerinformations">
+        <div class="footer__informations">
             <ul class="list-unstyled1">
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="a-propos.html">A propos</a></li>
-                <li><a href="inscription.html">Inscription</a></li>
-                <li> <a href="404.html">Mentions légales</a></li>
-                <li><a href="404.html">Plan du site</a></li>
+                <li class="footer__categories"><a href="contact.html">Contact</a></li>
+                <li class="footer__categories"><a href="a-propos.html">A propos</a></li>
+                <li class="footer__categories"><a href="inscription.html">Inscription</a></li>
+                <li class="footer__categories"> <a href="404.html">Mentions légales</a></li>
+                <li class="footer__categories"><a href="404.html">Plan du site</a></li>
             </ul>
         </div>
 
-        <div class="footerligne"></div>
+        <div class="footer__ligne"></div>
 
 
         <div class="footer__social">
@@ -84,9 +92,12 @@
             </ul>
         </div>
 
-        <p>MMI Montbéliard</p>
-        <img src="public/icone/mmi-logo.svg" alt="Icone logo MMi">
-        <p>©2022, Kid'sArt.fr</p>
+        <div class="mmi">
+            <p>MMI Montbéliard</p>
+            <img class="logommi" src="public/icone/logo__mmi.svg" alt="Icone logo MMi">
+        </div>
+        <p class="copyright">©2022, Kid'sArt.fr</p>
+
     </footer>
 
 </body>

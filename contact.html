@@ -13,6 +13,8 @@
     <header class="header">
 
         <div class="menu">
+            <img class="menu__title" src="public/icone/logo-petit.png" alt="petit logo">
+
             <h3 class="menu__title">
                 <a class="menu__link" href="index.html">Accueil</a>
             </h3>
@@ -23,18 +25,18 @@
                 <a class="menu__link" href="àpropos.html">À propos</a>
             </h3>
 
-            <div>
-                <button class="Button__inscription">
-                    <p class="title__button__inscription">Inscription</p>
-                </button>
+            <div class="Button__inscription">
+                <a href="inscription.html"> Inscription</a>
             </div>
         </div>
     </header>
 
     <main>
-        <img src="public/img/fond__contact.webp" alt="fond__contact">
-        <h2>CONTACT</h2>
-        <p>Pour tout problème ou renseignement supplémentaire veuillez
+        <img class="hero__contact" src="public/img/fond__contact.webp" alt="fond__contact">
+        <img class="image__fond_tranparent_contact" src="public/img/fond__contact_transparent.jpg"
+            alt="fond transparent">
+        <h2 class="titre__coontact">CONTACT</h2>
+        <p class="text__contact1">Pour tout problème ou renseignement supplémentaire veuillez
             remplirce formulaire nous y répondrons avec attention dans
             les plus bref délai</p>
         <form>
@@ -67,30 +69,50 @@
                 </div>
             </div>
 
-
-            <div class="pied-formulaire">
-                <img src="public/img/icone/envoyer.svg" alt="icone envoyer">
-                <button>ENVOYER</button>
-            </div>
-
         </form>
+
+        <div class="pied-formulaire">
+            <button><img src="public/icone/envoyer.svg" alt="icone envoyer">
+                ENVOYER</button>
+        </div>
+
+        <p class="text__contact">L’équipe vous répondra au plus vite, merci pour votre message !</p>
+
 
     </main>
     <footer class="footer">
-        <a href="contact.html">Contact</a>
-        <a href="a-propos.html">A propos</a>
-        <a href="inscription.html">Inscription</a>
-        <a href="404.html">Mentions légales</a>
-        <a href="404.html">Plan du site</a>
+        <div class="footer__informations">
+            <ul class="list-unstyled1">
+                <li class="footer__categories"><a href="contact.html">Contact</a></li>
+                <li class="footer__categories"><a href="a-propos.html">A propos</a></li>
+                <li class="footer__categories"><a href="inscription.html">Inscription</a></li>
+                <li class="footer__categories"> <a href="404.html">Mentions légales</a></li>
+                <li class="footer__categories"><a href="404.html">Plan du site</a></li>
+            </ul>
+        </div>
 
-        <img src="public/img/icone/instagram.svg" alt="Icone instagram">
-        <img src="public/img/icone/linkedin.svg" alt="icone linkedin">
-        <img src="public/img/icone/twitter.svg" alt="Icone twitter">
-        <img src="public/img/icone/facebook.svg" alt="Icone facebook">
+        <div class="footer__ligne"></div>
 
-        <p>MMI Montbéliard</p>
-        <img src="public/img/icone/mmi-logo.svg" alt="Icone logo MMi">
-        <p>©2022, Kid'sArt.fr</p>
+
+        <div class="footer__social">
+            <ul class="list-unstyled2">
+                <li><a href="https://www.facebook.com/profile.php?id=100009306961064" aria-label="facebook"><img
+                            src="public/icone/facebook.svg" alt="icone facebook"></a></li>
+                <li><a href="https://twitter.com/1820Tc" aria-label="twitter"><img src="public/icone/twitter.svg"
+                            alt="icone twitter"></a></li>
+                <li><a href="https://www.linkedin.com/in/marion-gillot-8133a7224/" aria-label="LogoLikedin"><img
+                            src="public/icone/linkedin.svg" alt="icone likedin"></a></li>
+                <li><a href="https://www.linkedin.com/in/marion-gillot-8133a7224/" aria-label="instagram"><img
+                            src="public/icone/instagram.svg" alt="icone instagram"></a></li>
+            </ul>
+        </div>
+
+        <div class="mmi">
+            <p>MMI Montbéliard</p>
+            <img class="logommi" src="public/icone/logo__mmi.svg" alt="Icone logo MMi">
+        </div>
+        <p class="copyright">©2022, Kid'sArt.fr</p>
+
     </footer>
 
 </body>

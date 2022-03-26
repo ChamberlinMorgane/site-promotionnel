@@ -12,6 +12,7 @@ La règle @import permet d'importer ici tous les fichiers css utilisés.
 
 /* Code fourni par Google Font pour l'utilisation de ces polices de caractères */
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Frijole&family=Montserrat:wght@100;600&family=Mulish:wght@200;300;400;500&family=Work+Sans&display=swap");
 
 /* Vendors */
 @import "vendors/normalize.css";
@@ -32,3 +33,4 @@ La règle @import permet d'importer ici tous les fichiers css utilisés.
 @import "component/hero.css";
 @import "component/contact.css";
 @import "component/inscriptions.css";
+@import "component/apropos.css"

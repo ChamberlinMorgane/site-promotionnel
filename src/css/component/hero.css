@@ -39,3 +39,34 @@
     margin-left: 261px;
     position: absolute;
 }
+
+.titre__coontact {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -277px;
+    padding: -110px;
+    font-size: 50px;
+    font-family: 'Frijole';
+    color: #214470;
+    z-index: 3;
+}
+
+
+
+.hero__inscription__title{
+    z-index: 3;
+    position: absolute;
+    float: left;
+    font-family: 'Frijole';
+    font-size: 50px;
+    margin-top: -350px;
+    margin-left: 500px;
+   
+}
+
+.hero__inscrptions{
+    width: 100%;
+    margin-top: -20px;
+    z-index: -1;
+}
+

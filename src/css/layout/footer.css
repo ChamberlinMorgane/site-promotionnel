@@ -1,16 +1,31 @@
 .footer{
     background-color: #404040;
     color: white;
-}
-
-.footer__informations{
-    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .list-unstyled1 {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+}
+
+.list-unstyled1 a {
     color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    
+
+}
+.footer__categories{
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
 }
 
 .list-unstyled2 {
@@ -24,19 +39,26 @@
 /* Réseaux sociaux */ 
 
 .footer__ligne {
-    width: 200px;
-    height: 2px;
-    color: white;
+    border: 1px solid white;
+    width: 500px;
+    margin-left: 500px;
+    
+
 }
 
 .copyright{
     display: flex;
     justify-content: center;
+    font-size: 15px;
 }
 
 .mmi{
     display: flex;
     justify-content: center;
+}
+
+.mmi p{
+    font-size: 15px;
 }
 
 .logommi{

@@ -1,0 +1,7 @@
+.photo__apropos{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+   margin-left: 250px;
+}

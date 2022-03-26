@@ -8,7 +8,6 @@ body{
 
 a {
     text-decoration: none;
-    color: #000000;
 }
 
 ul {
@@ -19,7 +18,9 @@ ul {
 /* Police d'écriture */
 
 * p {
-    font-family: var(--mulish);
+    font-family: 'mulish';
+    font-size: 25px;
+
   }
   
   * h1 {
@@ -36,7 +37,11 @@ ul {
   * h3 {
     font-family: 'Montserrat', sans-serif;;
     font-size: 30px;
+}
 
+* label{
+  font-family: 'mulish';
+  font-size: 20px;
 }
 
 .compte-a-rebour{
@@ -45,5 +50,69 @@ ul {
     display: flex;
     justify-content: center;
     color: black;
+    margin-top: 50px;
 
 }
+
+.dessin {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.dessin:hover{
+  transform: scale(1.3);
+  }
+
+.dessin1{
+  margin-bottom: -400px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.dessin1:hover{
+  transform: scale(1.03);
+  }
+
+.bubbleright{
+  float: right;
+  width: 450px;  
+
+}
+
+
+.bubbleleft{
+  float: left;
+  width: 450px;
+}
+
+
+.text__index{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.text__index1{
+  font-size: 30px;
+margin-bottom: 450px;
+margin-top: -400px;
+margin-left: 100px;
+}
+
+
+.bubble1{
+  float: right;
+  margin-right: 420px;
+  margin-top: -100px;
+}
+
+
+.bubble2{
+  float: right;
+  margin-right: 200px;
+  margin-top: -300px;
+}
+
