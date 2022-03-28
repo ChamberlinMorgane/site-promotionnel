@@ -42,6 +42,8 @@
     border: 1px solid white;
     width: 500px;
     margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
 
 }
@@ -58,6 +60,12 @@
 }
 
 .mmi p{
+    font-size: 15px;
+}
+
+.mmi a {
+    text-decoration: none;
+    color: white;
     font-size: 15px;
 }
 

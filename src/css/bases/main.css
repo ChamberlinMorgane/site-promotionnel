@@ -52,6 +52,7 @@ ul {
     justify-content: center;
     color: black;
     margin-top: 50px;
+    font-family: 'Montserrat';
 
 }
 
@@ -117,5 +118,27 @@ margin-left: 100px;
   margin-top: -300px;
 }
 
+.soulignage__1 {
+  position: absolute;
+  margin-left: 586px;
+  z-index: -1;
+  margin-top: -41px;
+}
 
+.soulignage__2 {
+  position: absolute;
+  margin-left: 526px;
+  z-index: -1;
+  width: 451px;
+  margin-top: -42px;
+  height: 12px;
+}
 
+.soulignage__3 {
+  position: absolute;
+  margin-left: 220px;
+  z-index: -1;
+  width: 1055px;
+  margin-top: -42px;
+  height: 12px;
+}
