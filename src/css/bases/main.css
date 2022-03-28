@@ -1,7 +1,8 @@
 /*background et couleurs des textes sur l'ensemble du site */
 
 body{
-    background-color: #EDECEC
+    background-color: #EDECEC;
+    overflow-x: hidden;
 }
 
 /* annuler la mise en forme des liens */
@@ -115,4 +116,6 @@ margin-left: 100px;
   margin-right: 200px;
   margin-top: -300px;
 }
+
+
 
