@@ -106,3 +106,25 @@
     text-decoration: none;
     color: black;
 }
+
+.hero_transparent_legale{
+    z-index: 3;
+    position: relative;
+    float: left;
+    margin-top: -360px;
+    margin-left: 360px;
+    opacity: 62%;
+    width: 800px;
+}
+
+.hero__titre__legale{
+    z-index: 3;
+    position: relative;
+    float: left;
+    font-family: 'Frijole';
+    font-size: 50px;
+    margin-top: -320px;
+    margin-left: 400px;
+    color: #214470;
+
+}
