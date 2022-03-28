@@ -1,7 +1,56 @@
-.photo__apropos{
-    display: flex;
-    flex-direction: row;
-    width: 200px;
-    height: 200px;
-   margin-left: 250px;
-}
+
+.title__center__h3 {
+    text-align: center;
+    }
+    
+    .avatars {
+      display: flex;
+      margin-left: 435px;
+      width: 267px;
+      margin-top: 77px;
+    }
+    
+      .avatar__marion {
+          display: flex;
+      }
+    
+      .avatar__morgane {
+        display: flex;
+        margin-left: 69px;
+    }
+    
+    .name__avatars {
+      margin-top: 13px;
+      display: flex;
+      margin-left: 519px;
+      margin-bottom: 72px;
+    }
+    
+    .name__morgane {
+      margin-left: 221px;
+    }
+    
+    .description__apropos {
+      text-align: center;
+      margin-left: 284px;
+      margin-right: 284px;
+    }
+    
+    .fond__orange {
+      margin-top: 21px;
+      width: 223px;
+      display: flex;
+      margin-left: 456px;
+      z-index: -1;
+      position: absolute;
+    }
+    
+    .fond__orange2 {
+      margin-left: 300px;
+    }
+    
+    .description__apropos2 {
+      margin-left: 187px;
+      margin-right: 357px;
+      margin-bottom: 69px;
+    }

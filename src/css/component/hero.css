@@ -70,3 +70,22 @@
     z-index: -1;
 }
 
+.title__apropos{
+    z-index: 3;
+    float: left;
+    margin-top: -350px;
+    margin-left: 500px;
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Frijole';
+    color: #214470 ;
+}
+
+.fond_transparent-apropos{
+    z-index: 3;
+    position: absolute;
+    float: left;
+    margin-top: -300px;
+    margin-left: 400px;
+    opacity: 62%;
+}
