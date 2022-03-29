@@ -2,7 +2,7 @@
         background-color: #EDECEC;
         z-index: 1;
         margin-top: 0;
-        height: 90px;  
+        height: 50px;  
     }
 
 .menu {
@@ -28,14 +28,14 @@
 .header{
   background-color: #EDECEC;
   z-index: -1;
-  margin-top: -8px;
+  margin-top: -20px;
   margin-left: -8px;
   margin-right: -8px;
   padding-bottom: 50px;
-  padding-top: 50px;   
+   
 }
 
-header{
+.header{
   background-color: #EDECEC;
   z-index: 1;
   margin-top: 0;
@@ -48,10 +48,10 @@ align-items: center;
 }
 
 .menu img{
-  width: 200px;
+  width: 150px;
   z-index: 3;
   position: absolute;
-  margin-top: -20px;
+  margin-top: -40px;
   margin-left: 20px;
 }
 

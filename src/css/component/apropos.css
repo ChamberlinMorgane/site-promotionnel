@@ -22,12 +22,13 @@
     .name__avatars {
       margin-top: 13px;
       display: flex;
-      margin-left: 519px;
-      margin-bottom: 72px;
+      margin-left: 486px;
+      margin-bottom: 80px;
+      margin-top: -2px;
     }
     
     .name__morgane {
-      margin-left: 221px;
+      margin-left: 180px;
     }
     
     .description__apropos {
@@ -45,8 +46,9 @@
       position: absolute;
     }
     
-    .fond__orange2 {
-      margin-left: 300px;
+    .fond__orange__2 {
+      margin-left: 100px;
+      width: 350px;
     }
     
     .description__apropos2 {

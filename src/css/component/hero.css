@@ -83,9 +83,48 @@
 
 .fond_transparent-apropos{
     z-index: 3;
-    position: absolute;
+    position: relative;
     float: left;
-    margin-top: -300px;
-    margin-left: 400px;
+    margin-top: -430px;
+    margin-left: 350px;
     opacity: 62%;
+}
+
+.hero__index{
+    font-family: 'Mulish';
+    font-size: 40px;
+}
+
+.hero__index_inscription{
+    font-family: 'Mulish';
+    font-size: 30px;
+    margin-top: 60px;
+    
+}
+
+.button__incription__home a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero_transparent_legale{
+    z-index: 3;
+    position: relative;
+    float: left;
+    margin-top: -360px;
+    margin-left: 360px;
+    opacity: 62%;
+    width: 800px;
+}
+
+.hero__titre__legale{
+    z-index: 3;
+    position: relative;
+    float: left;
+    font-family: 'Frijole';
+    font-size: 50px;
+    margin-top: -320px;
+    margin-left: 400px;
+    color: #214470;
+
 }
