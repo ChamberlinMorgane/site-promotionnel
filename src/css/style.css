@@ -33,4 +33,5 @@ La règle @import permet d'importer ici tous les fichiers css utilisés.
 @import "component/hero.css";
 @import "component/contact.css";
 @import "component/inscriptions.css";
-@import "component/apropos.css"
+@import "component/apropos.css";
+@import "component/mentionslegales.css"
