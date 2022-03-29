@@ -20,7 +20,7 @@ ul {
 
 * p {
     font-family: 'mulish';
-    font-size: 20px;
+    font-size: 21px;
 
   }
   
@@ -112,6 +112,13 @@ margin-top: -400px;
 margin-left: 100px;
 }
 
+.text__index2 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-left: 508px;
+}
+
 
 .bubble1{
   float: right;
@@ -151,6 +158,40 @@ margin-left: 100px;
   height: 12px;
 }
 
+.image__acceuil__presentation{
+  float: left;
+  margin-top: -200px;
+  margin-left: -100px;
+}
+
 .main__mentionslegales{
   margin-left: 50px;
+}
+
+.ecriture-index{
+  background-color: #FFA461;
+  margin-top: 50px;
+}
+
+
+.deco-1 {
+  position: absolute;
+  margin-left: 745px;
+  margin-right: 179px;
+  z-index: 3;
+  margin-top: -440px;
+}
+
+.deco-1::before {
+  content: "";
+  display: block;
+  width: 735px;
+  height: 391px;
+  background: #FFA461;
+  position: absolute;
+  z-index: -3;
+  margin-top: -104px;
+  left: -89px;
+  border-radius: 58px;
+  font-family: 'Mulish';
 }
