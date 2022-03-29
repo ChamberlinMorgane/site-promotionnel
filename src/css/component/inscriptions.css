@@ -38,24 +38,27 @@ form .corps-inscription .groupe_inscription input{
 }
 
 
-.pied-inscription button {
-    margin-top: 10px;
-    background-color:#ffffff ;
+.bouton__inscription2 {
+    background-color: lightgray;
     color: black;
-    font-size: 15px;
+    font-size: 35px;
     border: 2px solid black;
-    padding: 10px 20px;
-    border-radius: 10px;
-    outline: none;
-    cursor: pointer;
-    transition: transform 0.5s;
-    display: block;
-    margin: auto;
-    
-
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-left: -491px;
+    margin-top: 820px;
+    position: relative;
+    font-family: 'mulish';
+    display: flex;
+    margin-bottom: 80px;
 }
 
-.pied-inscription button:hover {
+    .bouton__inscription2 button {
+        background-color: lightgray;
+        border: none;
+    }
+
+.bouton__inscription2:hover {
     transform: scale(1.05);
     
 }

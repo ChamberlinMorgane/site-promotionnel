@@ -1,14 +1,11 @@
-.header{
-        background-color: #EDECEC;
-        z-index: 1;
-        margin-top: 0;
-        height: 50px;  
-    }
+
 
 .menu {
-    display: flex;
-    align-items: center;
-  }
+  display: flex;
+  align-items: center;
+  margin-right: 157px;
+  margin-top: 32px;
+}
   
   .menu__link {
     color: var(--gray-black);
@@ -38,8 +35,7 @@
 .header{
   background-color: #EDECEC;
   z-index: 1;
-  margin-top: 0;
-  height: 90px;
+  height: 65px;
 }
 
 .menu {
@@ -64,10 +60,6 @@ margin-left: 200px;
 
 }
 
-
-
-
-
 /* Header pages secondaires */
 
 .Button__inscription {
@@ -75,9 +67,10 @@ margin-left: 200px;
   border-radius: 101px;
   width: 224px;
   height: 80px;
-  font-family:'Arial', 'Helvetica, sans-serif';
+  font-family: 'Arial', 'Helvetica, sans-serif';
   font-size: 35px;
-  margin: 50px;
+  margin-right: -122px;
+  margin-top: 10px;
   border: 2px solid black;
 }
 

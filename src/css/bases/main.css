@@ -107,7 +107,7 @@ ul {
 
 .text__index1{
   font-size: 25px;
-margin-bottom: 450px;
+margin-bottom: 141px;
 margin-top: -400px;
 margin-left: 100px;
 }
@@ -194,4 +194,22 @@ margin-left: 100px;
   left: -89px;
   border-radius: 58px;
   font-family: 'Mulish';
+}
+
+.bouton__accueil {
+  margin-top: 10px;
+  background-color: lightsteelblue;
+  color: black;
+  font-size: 35px;
+  border: 2px solid black;
+  padding: 10px 40px;
+  border-radius: 30px;
+  margin-left: 611px;
+  margin-top: -262px;
+  position: absolute;
+  width: 210px;
+  height: 49px;
+  font-family: 'mulish';
+  display: flex;
+  justify-content: center;
 }

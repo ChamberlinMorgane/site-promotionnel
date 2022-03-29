@@ -128,3 +128,10 @@
     color: #214470;
 
 }
+
+.title__introduction {
+    margin-left: 30px;
+    text-align: center;
+    font-family: 'mulish';
+    margin-bottom: 110px;
+}
