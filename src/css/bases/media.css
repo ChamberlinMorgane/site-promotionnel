@@ -15,9 +15,9 @@ figcaption {
   color: var(--gray-600);
 }
 
-main {
+.home main {
   background-image: url("../../../public/img/fond__bulles.svg");
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: contain;
   background-position: center bottom;
 }
