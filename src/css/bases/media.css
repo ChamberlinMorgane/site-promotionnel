@@ -14,3 +14,10 @@ figcaption {
   font-size: var(--text-sm);
   color: var(--gray-600);
 }
+
+main {
+  background-image: url("../../../public/img/fond__bulles.svg");
+  background-repeat: none;
+  background-size: contain;
+  background-position: center bottom;
+}

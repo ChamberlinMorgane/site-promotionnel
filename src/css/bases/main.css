@@ -36,7 +36,7 @@ ul {
   }
   
   * h3 {
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
 }
 
@@ -59,16 +59,18 @@ ul {
   display: flex;
   justify-content: center;
   color: black;
-  margin-top: 3rem;
+  margin-top: 7rem;
   font-family: 'Montserrat';
+  margin-bottom: -8rem;
 }
 
-.dessin {
+.dessin__reve {
   display: flex;
   justify-content: center;
   margin-top: 12.5rem;
   cursor: pointer;
   transition: transform 0.5s;
+  margin-left: -30rem;
 }
 
 .dessin:hover{
@@ -81,27 +83,27 @@ ul {
   transition: transform 0.2s;
 }
 
+.dessin__cheval {
+  display: flex;
+  justify-content: center;
+  margin-top: 36.5rem;
+  cursor: pointer;
+  transition: transform 0.5s;
+  margin-left: 35rem;
+  margin-bottom: 43rem;
+}
+
 .dessin1:hover{
   transform: scale(1.03);
   }
 
-.bubbleright{
-  float: right;
-  width: 28rem;  
-
-}
-
-
-.bubbleleft{
-  float: left;
-  width: 28rem;
-}
-
-
-.text__index{
+.text__index {
   display: flex;
   justify-content: center;
   font-size: 1.2rem;
+  margin-top: -20%;
+  margin-left: 64%;
+  position: absolute;
 }
 
 .text__index1 {
@@ -115,22 +117,11 @@ ul {
   display: flex;
   justify-content: center;
   font-size: 1.2rem;
-  margin-left: 31rem;
+  margin-left: -53rem;
+  margin-top: -63rem;
+  margin-bottom: 37rem;
 }
 
-
-.bubble1{
-  float: right;
-  margin-right: 26rem;
-  margin-top: -6rem;
-}
-
-
-.bubble2{
-  float: right;
-  margin-right: 12.5rem;
-  margin-top: -18.7rem;
-}
 
 .soulignage__1 {
   position: absolute;
@@ -204,11 +195,17 @@ ul {
   padding: 0.625rem 2.5rem;
   border-radius: 1.8rem;
   margin-left: 38.18rem;
-  margin-top: -16.37rem;
+  margin-top: -11.37rem;
   position: absolute;
   width: 13.12rem;
   height: 3.063rem;
   font-family: 'mulish';
   display: flex;
   justify-content: center;
+}
+
+.tuto {
+  margin-left: 10vw;
+  margin-top: -14vh;
+  margin-bottom: 29vh;
 }
