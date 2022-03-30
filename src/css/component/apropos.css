@@ -5,9 +5,9 @@
     
     .avatars {
       display: flex;
-      margin-left: 435px;
-      width: 267px;
-      margin-top: 77px;
+      margin-left: 27.18rem;
+      width: 16.68rem;
+      margin-top: 4.81rem;
     }
     
       .avatar__marion {
@@ -16,43 +16,44 @@
     
       .avatar__morgane {
         display: flex;
-        margin-left: 69px;
+        margin-left: 4.31rem;
     }
     
     .name__avatars {
-      margin-top: 13px;
+      margin-top: 0.813rem;
       display: flex;
-      margin-left: 486px;
-      margin-bottom: 80px;
-      margin-top: -2px;
+      margin-left: 30.37rem;
+      margin-bottom: 5rem;
+      margin-top: -0.152rem;
     }
     
     .name__morgane {
-      margin-left: 180px;
+      margin-left: 9.37rem;
     }
     
     .description__apropos {
       text-align: center;
-      margin-left: 284px;
-      margin-right: 284px;
+      margin-left: 17.75rem;
+      margin-right: 17.75rem;
     }
     
     .fond__orange {
-      margin-top: 21px;
-      width: 223px;
+      margin-top: 1.31rem;
+      width: 13.93rem;
       display: flex;
-      margin-left: 456px;
+      margin-left: 28.5rem;
       z-index: -1;
       position: absolute;
     }
     
     .fond__orange__2 {
-      margin-left: 100px;
-      width: 350px;
+      margin-left: 6.25rem;
+      width: 21.87rem;
     }
     
-    .description__apropos2 {
-      margin-left: 187px;
-      margin-right: 357px;
-      margin-bottom: 69px;
-    }
+    .description__apropos__2 {
+      margin-left: 9.688rem;
+      margin-right: 22.31rem;
+      margin-bottom: 2.3rem;
+      margin-top: 3rem;
+  }

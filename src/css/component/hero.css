@@ -1,51 +1,50 @@
 .logo__site {
     position: absolute;
-    margin-left: -908px;
-    margin-top: 157px;
-    width: 322px;
+    margin-left: -56rem;
+    margin-top: 8rem;
+    width: 20rem;
 }
 
 .baseline__site {
     position: absolute;
-    margin-left: 347px;
-    margin-top: -577px;
+    margin-left: 21.68rem;
+    margin-top: -36.063rem;
     text-align: center;
-    padding: -110px;
-    width: 817px;
+    padding: -6.87rem;
+    width: 51.063rem;
     z-index: 3;
 }
 
 .button__incription__home {
-    width: 457px;
+    width: 28rem;
     background-color: #FEB84F;
-    height: 114px;
+    height: 7rem;
     position: absolute;
-    margin-top: -343px;
-    margin-left: 541px;
-    border-radius: 65px;
+    margin-top: -21rem;
+    margin-left: 33rem;
+    border-radius: 4rem;
     border-style: solid;
     border-color: black;
-    
 }
 
 .text__inscription {
     text-align: center;
-    margin-top: -26px;
+    margin-top: -1.625rem;
 }
 
 .fond__transparent__home {
     z-index: 1;
-    margin-top: -579px;
-    margin-left: 261px;
+    margin-top: -36rem;
+    margin-left: 16rem;
     position: absolute;
 }
 
 .titre__coontact {
     position: absolute;
-    margin-left: 600px;
-    margin-top: -277px;
-    padding: -110px;
-    font-size: 50px;
+    margin-left: 37.5rem;
+    margin-top: -17.313rem;
+    padding: -6.87rem;
+    font-size: 3.125rem;
     font-family: 'Frijole';
     color: #214470;
     z-index: 3;
@@ -58,25 +57,25 @@
     position: absolute;
     float: left;
     font-family: 'Frijole';
-    font-size: 50px;
-    margin-top: -350px;
-    margin-left: 500px;
+    font-size: 3.125rem;
+    margin-top: -21.87rem;
+    margin-left: 31.25rem;
    
 }
 
 .hero__inscrptions{
     width: 100%;
-    margin-top: -20px;
+    margin-top: -1.25rem;
     z-index: -1;
 }
 
 .title__apropos{
     z-index: 3;
     float: left;
-    margin-top: -350px;
-    margin-left: 500px;
+    margin-top: -21.87rem;
+    margin-left: 31.25rem;
     position: absolute;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-family: 'Frijole';
     color: #214470 ;
 }
@@ -85,20 +84,20 @@
     z-index: 3;
     position: relative;
     float: left;
-    margin-top: -430px;
-    margin-left: 350px;
+    margin-top: -26.87rem;
+    margin-left: 21.87rem;
     opacity: 62%;
 }
 
 .hero__index{
     font-family: 'Mulish';
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .hero__index_inscription{
     font-family: 'Mulish';
-    font-size: 30px;
-    margin-top: 60px;
+    font-size: 1.87rem;
+    margin-top: 3.75rem;
     
 }
 
@@ -111,10 +110,10 @@
     z-index: 3;
     position: relative;
     float: left;
-    margin-top: -360px;
-    margin-left: 360px;
+    margin-top: -22.5rem;
+    margin-left: 22.5rem;
     opacity: 62%;
-    width: 800px;
+    width: 50rem;
 }
 
 .hero__titre__legale{
@@ -122,16 +121,16 @@
     position: relative;
     float: left;
     font-family: 'Frijole';
-    font-size: 50px;
-    margin-top: -320px;
-    margin-left: 400px;
+    font-size: 3.125rem;
+    margin-top: -20rem;
+    margin-left: 25rem;
     color: #214470;
 
 }
 
 .title__introduction {
-    margin-left: 30px;
+    margin-left: 1rem;
     text-align: center;
     font-family: 'mulish';
-    margin-bottom: 110px;
+    margin-bottom: 7rem;
 }
