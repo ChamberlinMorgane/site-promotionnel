@@ -179,7 +179,7 @@ ul {
   height: 24rem;
   background: #FFA461;
   position: absolute;
-  z-index: -3;
+  z-index: -4;
   margin-top: -6.5rem;
   left: -5.5rem;
   border-radius: 3rem;
@@ -208,4 +208,52 @@ ul {
   margin-left: 13vw;
   margin-top: -16vh;
   margin-bottom: 35vh;
+}
+
+.ours_droite{
+  float:right;
+  margin-top: 14%;
+  margin-right: 16%;
+  width: 10%;
+}
+
+.ours_gauche{
+  float: left;
+  margin-top: -55%;
+  margin-left: 16%;
+  width: 10%;
+}
+
+.habillage_tuto{
+  content: "";
+  display: block;
+  width: 50rem;
+  height: 22rem;
+  background: #FFA461;
+  position: relative;
+  z-index: -3;
+  margin-top: -7.5rem;
+  left: 23rem;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  border-radius: 3rem;
+  font-family: 'Mulish';
+}
+
+.tuto_title{
+  margin-bottom: 10rem;
+}
+
+.soulignage__index1{
+  float: right;
+  margin-right: 32rem;
+  margin-top: -7.5rem;
+  width: 30rem;
+}
+
+.soulignage__index2{
+  float: right;
+  margin-right: 55rem;
+  margin-top: -10.7rem;
+  width: 30rem;
 }
