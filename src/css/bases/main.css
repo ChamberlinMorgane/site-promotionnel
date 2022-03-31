@@ -123,31 +123,6 @@ ul {
 }
 
 
-.soulignage__1 {
-  position: absolute;
-  margin-left: 360.625em;
-  z-index: -1;
-  margin-top: -2.5rem;
-}
-
-.soulignage__2 {
-  position: absolute;
-  margin-left: 32.8rem;
-  z-index: -1;
-  width: 28rem;
-  margin-top: -2.6rem;
-  height: 0.75rem;
-}
-
-.soulignage__3 {
-  position: absolute;
-  margin-left: 13.7rem;
-  z-index: -1;
-  width: 65.9rem;
-  margin-top: -2.6rem;
-  height: 0.75rem;
-}
-
 .image__acceuil__presentation{
   float: left;
   margin-top: -12.5rem;
@@ -229,7 +204,7 @@ ul {
   display: block;
   width: 50rem;
   height: 22rem;
-  background: #FFA461;
+  background: #FEDD88;
   position: relative;
   z-index: -3;
   margin-top: -7.5rem;

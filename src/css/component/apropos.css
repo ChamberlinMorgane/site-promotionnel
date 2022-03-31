@@ -3,6 +3,24 @@
     text-align: center;
     }
     
+    .soulignage__2 {
+      position: absolute;
+      margin-left: 32.8rem;
+      z-index: -1;
+      width: 28rem;
+      margin-top: -2.6rem;
+      height: 0.75rem;
+    }
+    
+    .soulignage__3 {
+      position: absolute;
+      margin-left: 13.7rem;
+      z-index: -1;
+      width: 65.9rem;
+      margin-top: -2.6rem;
+      height: 0.75rem;
+    }
+    
     .avatars {
       display: flex;
       margin-left: 27.18rem;
@@ -24,11 +42,11 @@
       display: flex;
       margin-left: 30.37rem;
       margin-bottom: 5rem;
-      margin-top: -0.152rem;
+      margin-top: 0.5rem;
     }
     
     .name__morgane {
-      margin-left: 9.37rem;
+      margin-left: 11.37rem;
     }
     
     .description__apropos {
@@ -63,9 +81,26 @@
 }
 
 .liste__1 {
-  position: relative;
+ position: relative;
+  font-family: 'mulish';
+  font-size: 1.3rem;
+  width: 30rem;
+  margin-left: 7rem;
 }
 
-.liste__1 {
+.liste__2 {
   position: relative;
+  float: right;
+  margin-top: -7.8rem;
+  width: 30rem;
+  font-family: 'mulish';
+  font-size: 1.3rem;
+  margin-right: 10rem;
+}
+
+.ligne_separation{
+  float: left;
+  margin-left: 44rem;
+  margin-top: -8rem;
+  height: 8rem;
 }
